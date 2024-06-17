@@ -3,7 +3,6 @@
     padding: 0px;
 }
 
-
 .navbar {
     background-color: #363D6B;
     color: white;
@@ -12,11 +11,6 @@
 
 #name {
     font-size: 20px;
-    margin-left: 10%;
-}
-
-#links {
-    margin-right: 10%;
 }
 
 #links a {
@@ -46,21 +40,11 @@ h1 {
 
 h2 {
     font-weight: 300;
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .home-image {
     border: 10px solid #38324B;
     border-radius: 30px;
     width: 350px;
-}
-
-@media (max-width: 767px) {
-    #name {
-        margin: 0;
-    }
-
-    #links {
-        margin: 0;
-    }
 }

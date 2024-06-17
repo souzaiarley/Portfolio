@@ -1,0 +1,38 @@
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #name {
+        margin-left: 10%;
+    }
+
+    #links {
+        margin-right: 10%;
+    }
+}
+
+/* Desktops and Laptops  */
+@media screen and (min-width: 992px) {
+    #name {
+        margin-left: 10%;
+    }
+
+    #links {
+        margin-right: 10%;
+    }
+
+    #home {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+    
+    h2 {
+        font-size: 40px;        
+    }
+
+    .home-image {
+        width: auto;
+    }
+}
