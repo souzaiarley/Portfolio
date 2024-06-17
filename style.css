@@ -52,7 +52,7 @@ h2 {
 .home-image {
     border: 10px solid #38324B;
     border-radius: 30px;
-    height: 300px;
+    width: 350px;
 }
 
 @media (max-width: 767px) {
