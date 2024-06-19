@@ -9,14 +9,14 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #name {
-        margin-left: 10%;
-    }
-
     #links {
-        margin-right: 10%;
+        display: flex;
     }
 
+    #menu {
+        display: none;
+    }
+    
     .home-image {
         width: 450px;
     }
@@ -24,12 +24,12 @@
 
 /* Desktops and Laptops  */
 @media screen and (min-width: 992px) {
-    #name {
-        margin-left: 10%;
+    #links {
+        display: flex;
     }
 
-    #links {
-        margin-right: 10%;
+    #menu {
+        display: none;
     }
 
     #home {
