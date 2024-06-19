@@ -21,7 +21,7 @@
             <a href="#" class="mx-md-3">About</a>
             <a href="#" class="mx-md-3">Contact</a>
         </div>
-        <i id="menu" class="bi bi-list"></i>
+        <i id="menu" class="bi bi-list" onclick="menu()"></i>
     </nav>
 
     <div id="home">
@@ -31,5 +31,16 @@
         </div>
         <img class="home-image" src="assets/programmer.gif" alt="sitting programmer using the PC">
     </div>
+
+    <script>
+        function menu() {
+            let links = document.getElementById('links');
+            if (links.style.display === 'flex') {
+                links.style.display = 'none';
+            } else {
+                links.style.display = 'flex';
+            }
+        }
+    </script>
 </body>
 </html>
