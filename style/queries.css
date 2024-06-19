@@ -9,13 +9,12 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .links-mobile {
+        display: none;
+    }
+    
     #links {
         display: flex;
-        flex-direction: row;
-        position: static;
-        width: auto;
-        height: auto;
-        padding: 5px;
     }
 
     #menu {
@@ -29,13 +28,12 @@
 
 /* Desktops and Laptops  */
 @media screen and (min-width: 992px) {
+    .links-mobile {
+        display: none;
+    }
+
     #links {
         display: flex;
-        flex-direction: row;
-        position: static;
-        width: auto;
-        height: auto;
-        padding: 5px;
     }
 
     #menu {
