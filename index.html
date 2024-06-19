@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style/queries.css">
     <title>Iarley Souza</title>
 </head>
-<body>
+<body onresize="resize()">
     <nav class="navbar justify-content-md-between">
         <div id="name">Iarley Souza</div>
         <div id="links">
@@ -38,6 +38,13 @@
             if (links.style.display === 'flex') {
                 links.style.display = 'none';
             } else {
+                links.style.display = 'flex';
+            }
+        }
+
+        function resize() {
+            let links = document.getElementById('links');
+            if (window.innerWidth >= 768) {
                 links.style.display = 'flex';
             }
         }

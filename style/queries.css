@@ -11,6 +11,11 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #links {
         display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 5px;
     }
 
     #menu {
@@ -26,6 +31,11 @@
 @media screen and (min-width: 992px) {
     #links {
         display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 5px;
     }
 
     #menu {
