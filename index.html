@@ -13,23 +13,25 @@
     <link rel="stylesheet" href="assets/css/queries.css">
     <title>Iarley Souza</title>
 </head>
-<body onresize="resize()">
-    <nav class="navbar justify-content-md-between">
-        <div id="name">Iarley Souza</div>
-        <div id="links">
-            <a href="#" class="mx-md-3">Home</a>
-            <a href="#" class="mx-md-3">Projects</a>
-            <a href="#" class="mx-md-3">About</a>
-            <a href="#" class="mx-md-3">Contact</a>
-        </div>
-        <i id="menu" class="bi bi-list" onclick="menu()"></i>
-        <div class="links-mobile">
-            <a href="#" class="mx-md-3">Home</a>
-            <a href="#" class="mx-md-3">Projects</a>
-            <a href="#" class="mx-md-3">About</a>
-            <a href="#" class="mx-md-3">Contact</a>
-        </div>
-    </nav>
+<body>
+    <header>
+        <nav class="navbar justify-content-md-between">
+            <div id="name">Iarley Souza</div>
+            <div id="links">
+                <a href="#" class="mx-md-3">Home</a>
+                <a href="#" class="mx-md-3">About</a>
+                <a href="#" class="mx-md-3">Projects</a>
+                <a href="#" class="mx-md-3">Contact</a>
+            </div>
+            <i id="menu" class="bi bi-list" onclick="menu()"></i>
+            <div class="links-mobile">
+                <a href="#" class="mx-md-3">Home</a>
+                <a href="#" class="mx-md-3">About</a>
+                <a href="#" class="mx-md-3">Projects</a>
+                <a href="#" class="mx-md-3">Contact</a>
+            </div>
+        </nav>
+    </header>
 
     <div id="home">
         <div class="home-text">
@@ -37,6 +39,16 @@
             <h2>Front-End Developer</h2>
         </div>
         <img class="home-image" src="assets/images/programmer.gif" alt="sitting programmer using the PC">
+    </div>
+
+    <div id="about">
+        <img class="about-img" src="assets/images/perfil.jpg" alt="foto de perfil">
+
+        <div class="about-text">
+            <h3>Hello!</h3>
+            <p>I'm Iarley Souza, a Front-End Developer. I'm passionate about technology and programming. I'm always looking for new challenges and learning new things. I'm currently studying Computer Science at the Federal University of Ceará (UFC).</p>
+            <p>I have experience with HTML, CSS, JavaScript, React, and Node.js. I'm always looking to improve my skills and learn new technologies.</p>
+        </div>
     </div>
 
     <script src="assets/js/script.js"></script>

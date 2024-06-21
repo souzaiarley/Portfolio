@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: #2C2B33;
+}
+
 .navbar {
     background-color: #363D6B;
     color: whitesmoke;
@@ -71,7 +75,6 @@
 }
 
 #home {
-    background-color: #2C2B33;
     height: 94vh;
     display: flex;
     flex-direction: column;
@@ -99,4 +102,23 @@ h2 {
     border: 10px solid #38324B;
     border-radius: 30px;
     width: 350px;
+}
+
+#about {
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-img {
+    width: 210px;
+    border-radius: 50%;
+}
+
+.about-text {
+    font-family: "Raleway", sans-serif;
+    color: whitesmoke;
+    width: 70%;
 }
