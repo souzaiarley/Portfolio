@@ -28,6 +28,22 @@
     .home-image {
         width: 450px;
     }
+
+    .about-img {
+        width: 250px;
+    }
+
+    .about-text {
+        width: 75%;
+    }
+
+    .about-text h3 {
+        font-size: 27px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
 }
 
 /* Desktops and Laptops  */
@@ -62,5 +78,21 @@
 
     #about {
         flex-direction: row;
+    }
+
+    .about-img {
+        width: 350px;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+
+    .about-text h3 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 21px;
     }
 }
