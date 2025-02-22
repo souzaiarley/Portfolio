@@ -74,7 +74,7 @@ body {
     background-color: #424975;
 }
 
-#home {
+.section_container {
     height: 94vh;
     display: flex;
     flex-direction: column;
@@ -102,14 +102,6 @@ h2 {
     border: 10px solid #38324B;
     border-radius: 30px;
     width: 350px;
-}
-
-#about {
-    height: 94vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .about-img {

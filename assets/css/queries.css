@@ -60,7 +60,7 @@
         display: none;
     }
 
-    #home {
+    .section_container {
         flex-direction: row;
     }
 
@@ -74,10 +74,6 @@
 
     .home-image {
         width: 450px;
-    }
-
-    #about {
-        flex-direction: row;
     }
 
     .about-img {
