@@ -74,7 +74,7 @@ body {
     background-color: #424975;
 }
 
-.section_container {
+.simple_container {
     height: 94vh;
     display: flex;
     flex-direction: column;
