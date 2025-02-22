@@ -115,3 +115,35 @@ h2 {
     color: whitesmoke;
     width: 70%;
 }
+
+.projects_container {
+    margin: 15% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.projects_container h2 {
+    color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 50px;
+}
+
+.projects img {
+    width: 280px;
+    border-radius: 30px;
+    border: 10px solid #38324B;
+}
