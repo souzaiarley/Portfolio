@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,28 +14,29 @@
     <link rel="stylesheet" href="assets/css/queries.css">
     <title>Iarley Souza</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar justify-content-md-between">
             <div id="name">Iarley Souza</div>
             <div id="links">
-                <a href="#" class="mx-md-3">Home</a>
-                <a href="#" class="mx-md-3">About</a>
-                <a href="#" class="mx-md-3">Projects</a>
-                <a href="#" class="mx-md-3">Contact</a>
+                <a href="#home" class="mx-md-3">Home</a>
+                <a href="#about" class="mx-md-3">About</a>
+                <a href="#projects" class="mx-md-3">Projects</a>
+                <a href="#contact" class="mx-md-3">Contact</a>
             </div>
             <i id="menu" class="bi bi-list" onclick="menu()"></i>
             <div class="links-mobile">
-                <a href="#" class="mx-md-3">Home</a>
-                <a href="#" class="mx-md-3">About</a>
-                <a href="#" class="mx-md-3">Projects</a>
-                <a href="#" class="mx-md-3">Contact</a>
+                <a href="#home" class="mx-md-3">Home</a>
+                <a href="#about" class="mx-md-3">About</a>
+                <a href="#projects" class="mx-md-3">Projects</a>
+                <a href="#contact" class="mx-md-3">Contact</a>
             </div>
         </nav>
     </header>
 
     <section>
-        <div class="simple_container">
+        <div id="home" class="simple_container">
             <div class="home-text">
                 <h1>I'm Iarley Souza!</h1>
                 <h2>Front-End Developer</h2>
@@ -48,14 +50,17 @@
             <img class="about-img" src="assets/images/perfil.jpg" alt="foto de perfil">
             <div class="about-text">
                 <h3>Hello!</h3>
-                <p>I'm Iarley Souza, a Front-End Developer. I'm passionate about technology and programming. I'm always looking for new challenges and learning new things. I'm currently studying Computer Science at the Federal University of Ceará (UFC).</p>
-                <p>I have experience with HTML, CSS, JavaScript, React, and Node.js. I'm always looking to improve my skills and learn new technologies.</p>
+                <p>I'm Iarley Souza, a Front-End Developer. I'm passionate about technology and programming. I'm always
+                    looking for new challenges and learning new things. I'm currently studying Computer Science at the
+                    Federal University of Ceará (UFC).</p>
+                <p>I have experience with HTML, CSS, JavaScript, React, and Node.js. I'm always looking to improve my
+                    skills and learn new technologies.</p>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="simple_container">
+        <div id="projects" class="simple_container">
             <div class="projects_container">
                 <h2>My Projects</h2>
                 <div class="projects">
@@ -71,32 +76,42 @@
                         <img src="assets/images/Costs.jpeg" alt="imagem da tela inicial do Costs">
                         <h3>Costs</h3>
                         <div class="buttons">
-                            <a href="https://costs-front.onrender.com/" target="_blank"><button type="button" class="btn btn-light">Access <i class="bi bi-box-arrow-up-right ms-1"></i></button></a>
+                            <a href="https://costs-front.onrender.com/" target="_blank"><button type="button"
+                                    class="btn btn-light">Access <i
+                                        class="bi bi-box-arrow-up-right ms-1"></i></button></a>
                             <a href="https://github.com/souzaiarley/Costs-Front" target="_blank"><button type="button" class="btn btn-outline-light">Repository <i class="bi bi-github ms-1"></i></button></a>
                         </div>
                     </div>
-                    <div class="project_card"><img src="assets/images/programmer.gif" alt=""></div>
+                    <div class="project_card">
+                        <img src="assets/images/programmer.gif" alt="">
+                        <h3>Project title</h3>
+                        <div class="buttons">
+                            <a href="" target="_blank"><button type="button" class="btn btn-light">Access <i class="bi bi-box-arrow-up-right ms-1"></i></button></a>
+                            <a href="" target="_blank"><button type="buttyon" class="btn btn-outline-light">Repository <i class="bi bi-github ms-1"></i></button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            </a>
-            <span class="mb-3 mb-md-0 fs-5">© 2024 Iarley Souza</span>
-          </div>
-      
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex fs-3">
-            <li class="ms-3"><a href="https://github.com/souzaiarley"><i class="bi bi-github ms-1"></i></a></li>
-            <li class="ms-3"><a href="https://www.linkedin.com/in/iarley-souza-28ab871b0/"><i class="bi bi-linkedin"></i></a></li>
-            <li class="ms-3"><a href="https://www.instagram.com/_souzaiarley/"><i class="bi bi-instagram"></i></a></li>
-          </ul>
+    <div class="container" id="contact">
+        <footer class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-12 col-md-4 d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                <a href="/" class="mb-3 me-md-2 mb-md-0 text-body-secondary text-decoration-none lh-1"></a>
+                <span class="mb-3 mb-md-0 fs-5">© 2024 Iarley Souza</span>
+            </div>
+
+            <ul class="nav col-12 col-md-4 justify-content-center justify-content-md-end list-unstyled d-flex fs-3">
+                <li class="mx-2"><a href="https://github.com/souzaiarley"><i class="bi bi-github"></i></a></li>
+                <li class="mx-2"><a href="https://www.linkedin.com/in/iarley-souza-28ab871b0/"><i class="bi bi-linkedin"></i></a></li>
+                <li class="mx-2"><a href="https://www.instagram.com/_souzaiarley/"><i class="bi bi-instagram"></i></a></li>
+            </ul>
         </footer>
-      </div>
+    </div>
+
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
