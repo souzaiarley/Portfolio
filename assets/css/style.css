@@ -165,3 +165,11 @@ h2 {
     border-radius: 30px;
     border: 10px solid #38324B;
 }
+
+footer {
+    color: rgb(187, 183, 183);
+}
+
+footer a {
+    color: rgb(187, 183, 183);
+}
