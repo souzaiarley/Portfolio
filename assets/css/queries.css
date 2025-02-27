@@ -52,8 +52,14 @@
 
     .projects img {
         width: 330px;
-        border-radius: 30px;
-        border: 10px solid #38324B;
+    }
+
+    .project_card {
+        text-align:left;
+    }
+
+    .buttons {
+        justify-content: left;
     }
 }
 
@@ -120,7 +126,13 @@
 
     .projects img {
         width: 330px;
-        border-radius: 30px;
-        border: 10px solid #38324B;
+    }
+
+    .project_card {
+        text-align:left;
+    }
+
+    .buttons {
+        justify-content: left;
     }
 }

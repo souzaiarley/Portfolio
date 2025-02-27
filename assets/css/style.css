@@ -142,7 +142,25 @@ h2 {
     gap: 50px;
 }
 
-.projects img {
+.project_card {
+    color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.project_card h3 {
+    margin: 25px 0 15px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project_card img {
     width: 280px;
     border-radius: 30px;
     border: 10px solid #38324B;
